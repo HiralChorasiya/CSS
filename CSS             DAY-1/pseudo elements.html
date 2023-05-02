@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        p::first-line{
+            color: crimson;
+        }
+        h2::first-letter{
+            color: purple;
+        }
+        ::selection{
+            color: darkblue;
+            background-color: grey;
+        }
+        ::marker{
+            color:teal
+        }
+        h2::after{
+            content:url("favicon.ico");
+        }
+    </style>
+</head>
+<body>
+    <h2>The pseudo element</h2>
+    <ul>
+        <li>item1</li>
+        <li>item2</li>
+        <li>item3</li>
+    </ul>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis maiores dolorum pariatur numquam quo quis ex blanditiis commodi architecto explicabo quod porro, accusantium ratione deserunt, minus quidem culpa libero, dolores dignissimos? Explicabo voluptate fuga, inventore velit labore impedit distinctio nobis!</p>
+</body>
+</html>
