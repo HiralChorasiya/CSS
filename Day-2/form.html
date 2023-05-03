@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+form{
+    text-align: left;
+    width: 600px;
+    height: 600px;
+    border: 1px solid black;
+    padding: 20px;
+}
+.div1{
+    display: flex;
+   
+}
+    </style>
+</head>
+<body><center>
+    <form>
+      <div>
+        <label for="fname">First Name:</label>
+        <input type="text" name="fname" id="fname" required><br><br></div>
+        <div><label>disabled</label>
+        <input type="text" disabled><br><br><br></div>
+        <div class="div1"><label for="msg">Message</label>
+        <textarea rows="4" cols="30"></textarea><br><br></div>
+        <div><label for="select">select&emsp;&emsp;</label>
+        <select>&emsp;&emsp;
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option></div>
+        </select><br><br><br>
+        <div><label for="checkboxes">Checkboxes:&emsp;</label>
+        <input type="checkbox">male<br>
+        <input type="checkbox">male<br>
+        <input type="checkbox">male<br><br><br></div>
+        <div><label for="checkboxes">Checkboxes inline:</label>
+        <input type="checkbox">male&emsp;
+        <input type="checkbox">male&emsp;
+        <input type="checkbox">male<br><br></div>
+        <div><label for="radio">radio</label>
+        <input type="radio">option 1<br>
+        <input type="radio">option 2<br>
+        <input type="radio">none<br><br><br></div>
+        <div><label for="radio">radio inline</label>
+        <input type="radio">option 1&emsp;
+        <input type="radio">option 2&emsp;   
+        <input type="radio">none<br><br></div>
+        
+        <input onclick="alert('sucessfully submitted')" style="background-color:green; color:white"; type="submit" id="submit" value="Submit">
+                 
+                <input  onclick="alert('your form is reset')" style="background-color:rgb(172, 177, 153); color:black";  type="reset" id="reset" value="Cancel">
+    </form></center>
+</body>
+</html>
