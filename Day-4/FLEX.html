@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .flex-container{
+            width:100vw;
+            display: flex;
+            background-color: darkturquoise;
+            text-align: center;
+            flex-flow:row;
+            justify-content:center;
+            flex-wrap: nowrap;
+            /* align-content: space-between; */
+
+            align-items: CENTER;
+           
+        }  
+       .d1{
+        padding: 20px;
+        background-color: rgb(98, 235, 240);
+        width: 100px;
+        margin:20px;
+         flex-basis: 200px;
+        padding: 20PX;
+        order: 3;
+       }
+.d2{
+    padding: 20px;
+    background-color:rgb(56, 226, 226);
+width: 100px;
+    margin:20px; 
+    flex-grow: 3;
+    padding: 20PX;
+    order: 4;
+    align-self: flex-end;
+}
+.d3{
+    padding: 20px;
+    background-color: rgb(7, 234, 241);
+width: 100px;
+    margin: 20px;
+    flex-shrink: 5;
+    padding: 20PX;
+    order: 1;
+    align-self: flex-start;
+}
+.d4{
+    padding: 20px;
+    background-color: rgb(65, 219, 247);
+width: 100px;
+    margin:20px;
+    order: 2;
+    align-self: center;
+}
+.d5{
+    padding: 20px;
+   
+    background-color: cadetblue;
+    width :100px;
+    margin:20px;
+}
+        .d6{
+            padding: 20px;
+            background-color: cadetblue;
+        width: 100px;
+            margin:20px;
+        }
+
+    </style>
+</head>
+<body>
+    <div class=" flex-container">
+         <div class="d1">One</div>
+         <div class="d2">Two</div>
+        <div class="d3">Three</div>
+        <div class="d4">Four</div> 
+        <!-- <div class="d5">Five</div>
+        <div class="d6">Six</div>
+        <div class="d4">Four</div>
+        <div class="d5">Five</div>
+        <div class="d6">Six</div> --> 
+        
+    </div>
+  
+</body>
+</html>
