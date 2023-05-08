@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .flex-container{
+            background-color: rgb(97, 96, 96);
+            width: 100vw;
+            height:600px;
+            display: flex;
+          align-content: space-between;
+          
+        }
+        .child{
+           
+            flex-direction: column;
+        }
+        .d1{
+            width: 600px;
+            height:430px;
+            margin: 20px;
+            background-color: aqua;
+            align-self: flex-start;
+        }
+        .d2{
+            
+            width:600px;
+            height:130px;
+            margin: 20px;
+            background-color: aqua;
+        }
+        
+        .d3{
+            width:280px;
+            height:130px;
+             background-color: aqua;
+           margin: 20px;
+        }
+        .d4{
+            width:280px;
+            height:130px;
+             background-color: aqua;
+             margin-top: -150px ;
+             margin-left:340px ;
+        }
+        .d5{ margin: 20px;
+            width:600px;
+            height:130px;
+             background-color: aqua;
+        }
+    </style>
+</head>
+<body>
+    <div class="flex-container">
+       <div class="d1"></div>
+       <div class="child">
+        <div class="d2"></div> 
+        <div class="d3"></div>
+        <div class="d4"></div>
+        <div class="d5"></div></div>
+    </div>
+</body>
+</html>
