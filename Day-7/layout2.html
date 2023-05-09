@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    .main{
+    height: 96vh;
+    width: 96vw;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    box-sizing: border-box;
+}
+.navbar{
+    display: flex;
+    overflow: hidden;
+    background-color:rgba(194, 176, 176, 0.594);
+    border-bottom: 2px solid rgb(193, 193, 193);
+    width: 100%;
+    height:10%;
+    float: left;
+   
+} 
+h1{
+        font-size: 30px;
+        margin-top:10px ;
+    }
+li{
+    list-style-type: none;
+    display: inline;
+    margin-left: 60px;
+}
+li a{
+    text-decoration: none;
+    color: gray;
+
+}
+li a:hover{
+color: aqua;
+background-color: darkgray;
+}
+li a:active{
+color: rgb(64, 0, 255);
+background-color: darkgray;
+}
+button{
+    border: 1px gray;
+    background-color: rgba(128, 128, 128, 0.231);
+    padding: 1px;
+    border-radius: 10px;
+    margin-left: 50px;
+   margin: 5px;
+}
+.flex-container{
+    height:80%;
+    width:80%;
+    display: flex;
+    flex-direction: row;
+}
+        .col1,.col2,.col3,.col4{
+            height:100%;
+            width:25%;
+            margin:10px;
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+        }
+
+        img{
+            height:80%
+        }
+
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div class="navbar">
+            <p><h1><b>AVONE</b></h1> &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+        <ul>
+            <li> <a href="">Home</a></li>&emsp;
+            <li><a href="">Shop</a></li>&emsp;
+            <li><a href="">Features</a></li>&emsp;
+           <li> <a href="">Look book</a></li>&emsp;
+           <li> <a href="">Blogs</a></li>&emsp;
+           <li> <a href="">Pages</a></li>&emsp;&emsp;&emsp;&emsp;&emsp;
+        </ul>
+        <button >&emsp;&emsp;&emsp;&emsp;login&emsp;&emsp;&emsp;&emsp;</button></p>
+    </div>
+    <div class="flex-container">
+        <div class="col1"><img src="C:\Users\Kalpana\Pictures\item1.png"><br>black top<br><br>$800.00</div>
+        <div class="col2"><img src="C:\Users\Kalpana\Pictures\item2.png"><br>black shirt<br><br>$700.00</div>
+        <div class="col3"><img src="C:\Users\Kalpana\Pictures\item5.png"><br>frock <br><br>$600.00</div>
+        <div class="col4"><img src="C:\Users\Kalpana\Pictures\item4.png"><br>bootcut jeans <br><br>$750.00</div>
+    </div></div>
+</body>
+</html>
