@@ -8,7 +8,7 @@
     display:flex;
     /* flex-flow:row wrap; */
 }
-.d1{
+.column1{
    flex-direction: column;
    height:50%;
    width:20%;
@@ -19,13 +19,13 @@ flex-direction: row;
 height:100%;
 width:100%;
 }
-.c1{
+.box1{
    width:50%;
    height:100%;
    background-color:rgb(227, 71, 71);
 }
 
-.c2{
+.box2{
     width:50%;
    height:100%;
    background-color: brown;
@@ -37,73 +37,73 @@ width:100%;
     width:100%;
     }
 
-.c3{
+.box3{
    width:100%;
    height:100%;
     background-color: yellow;
 }
-.d2{
+.column2{
 flex-direction: column;
 height:100%;
 width:20%;
 }
-.e1{
+.box4{
 
     width:100%;
    height:33.33%;
     background-color: rgba(0, 0, 0, 0.305);
 }
-.e2{
+.box5{
     width:100%;
    height:33.33%;
     background-color: rgba(0, 0, 0, 0.465);
 }
-.e3{
+.box6{
     width:100%;
    height:33.33%;
     background-color: rgb(0, 0, 0);
 }
-.d3{
+.column3{
 flex-direction: column;
 height:100%;
 width:20%;
 }
 
-.f1{
+.box7{
     width:100%;
    height:40%;
     background-color: rgb(231, 121, 174);
     flex-grow: 2;
 }
-.f2{
+.box8{
     width:100%;
    height:40%;
     background-color: rgba(237, 124, 190, 0.625);
     flex-grow: 2;
 }
-.f3{
+.box9{
     width:100%;
    height:20%;
     background-color: rgba(128, 34, 101, 0.705);
 }
-.d4{
+.column4{
 flex-direction: column;
 height:100%;
 width:20%;
 }
-.g1{
+.box10{
     width:100%;
    height:40%;
     background-color: rgb(149, 41, 41);
     flex-grow: 2;
 }
-.g2{
+.box11{
     width:100%;
    height:20%;
     background-color: rgba(120, 41, 44, 0.858);
     flex-grow: 2;
 }
-.g3{
+.box12{
     width:100%;
    height:40%;
     background-color: rgba(231, 106, 114, 0.879);
