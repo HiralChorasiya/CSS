@@ -14,25 +14,32 @@
     flex-wrap: wrap;
     justify-content: center;
     box-sizing: border-box;
+    margin-inline:auto ;
+}
+.header{
+    width:80% ;
+     background-color:rgba(255, 255, 255, 0.594);
 }
 .navbar{
+    margin-inline:auto ;
     display: flex;
     overflow: hidden;
-    background-color:rgba(194, 176, 176, 0.594);
     border-bottom: 2px solid rgb(193, 193, 193);
-    width: 100%;
     height:10%;
-    float: left;
+    justify-content: space-between;
    
 } 
 h1{
         font-size: 30px;
         margin-top:10px ;
     }
+    .links{
+        display: block;
+        margin: 13px;
+    }
 li{
     list-style-type: none;
     display: inline;
-    margin-left: 60px;
 }
 li a{
     text-decoration: none;
@@ -50,9 +57,8 @@ background-color: darkgray;
 button{
     border: 1px gray;
     background-color: rgba(128, 128, 128, 0.231);
-    padding: 1px;
-    border-radius: 10px;
-    margin-left: 50px;
+    padding: 15px;
+    border-radius: 5px;
    margin: 5px;
 }
 .flex-container{
@@ -78,18 +84,22 @@ button{
 </head>
 <body>
     <div class="main">
+        <DIV class="header">
         <div class="navbar">
-            <p><h1><b>AVONE</b></h1> &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
-        <ul>
+            <div class="logo">
+            <p><h1><b>AVONE</b></h1> 
+        <ul></div>
+            <div class="links">
             <li> <a href="">Home</a></li>&emsp;
             <li><a href="">Shop</a></li>&emsp;
             <li><a href="">Features</a></li>&emsp;
            <li> <a href="">Look book</a></li>&emsp;
            <li> <a href="">Blogs</a></li>&emsp;
-           <li> <a href="">Pages</a></li>&emsp;&emsp;&emsp;&emsp;&emsp;
+           <li> <a href="">Pages</a></li></div>
         </ul>
-        <button >&emsp;&emsp;&emsp;&emsp;login&emsp;&emsp;&emsp;&emsp;</button></p>
-    </div>
+        <div class="button">
+        <button >login</button></p></div>
+    </div></DIV>
     <div class="flex-container">
         <div class="col1"><img src="C:\Users\Kalpana\Pictures\item1.png"><br>black top<br><br>$800.00</div>
         <div class="col2"><img src="C:\Users\Kalpana\Pictures\item2.png"><br>black shirt<br><br>$700.00</div>
