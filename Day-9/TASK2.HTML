@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .main{
+            background-color: blue;
+            color: white;
+            width: 100vw;
+            height:100vh;
+            position: relative;
+        }
+        .box{
+            position: absolute;
+            inset: 40%;
+            padding: 2%;
+            border: 1px solid white;
+            text-align: center;
+            font-size: 50px;
+  width:0 px;
+  height: 100px;
+  background: linear-gradient(to left, BLUE 50%, rgb(246, 25, 9) 50%) right;
+    background-size: 200%;
+    transition: 0.5s ease-in-out;
+}
+.box:hover {
+    background-position: left;
+   width:300px;
+}
+      </style>
+</head>
+<body>
+    <div class="main">
+    <div class="box">SLIDE</div></div>
+</body>
+</html>
