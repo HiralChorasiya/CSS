@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        body{
+            height: 100vh;
+            width: 100vw;
+            background-color: blue;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+        }
+        button{
+            position: relative;
+            padding:100px 130px;   
+              overflow: hidden;
+              font-size: 70px;
+              background-color: transparent;
+              border-color: white;
+               border-width:7px;
+              border-style: double;
+              color: white;
+            
+         
+        }
+        button::before{
+            width: 100%;
+            height: 100%;
+            content:"SLIDE";
+            position: absolute;
+            background-color: red;
+            left:-100%;
+            TOP:0%;
+            transition:all .7s linear;
+            font-size: 50px;
+            color: black;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 70px;
+        }
+        button:hover::before{
+         LEFT:0%;
+       }
+
+    </style>
+</head>
+<body>
+    <button>SLIDE</button>
+</body>
+</html>
