@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+*{
+    margin: 0;
+    padding: 0;
+}
+        .main{
+            height:100vh;
+            width:100vw;
+        
+        }
+        .container{  
+            height:100%;
+            width:100%;
+         overflow: hidden; 
+            position: relative;
+        }
+        .container>img{
+            height:100%;
+            width: 100%;
+            opacity: 0.5;   
+            
+        }
+        .header{
+            width:100%;
+            background-color: rgba(0, 0, 0, 0.18);   
+              position: absolute;
+           top:10px;
+        } 
+        .links{
+            width:40%;
+            
+        }
+        ul{
+            display: flex;
+        }
+        nav{
+            display: flex;
+            justify-content: space-between;
+      
+            width: 100%;
+        } 
+      li{
+    list-style-type: none;
+    display: block;
+    padding: 16px 20px;
+  }  
+ li a{ 
+   color:white;
+ text-decoration: none;
+}
+nav>img{
+    padding-left: 10px;
+} 
+.blue{
+    color: aqua;
+}
+.content{
+    position: absolute;
+    top:30%;
+ left:30%;
+    text-align: center;
+    color: steelblue;
+}
+h1{
+    margin:5% 0%;
+    font-size: 3rem;
+}
+.button{
+    margin:5% 0%;
+}
+.btn1{
+    padding: 10px;
+    color:white;
+    font-weight: 200;
+    border:1px solid  steelblue;
+    background-color: steelblue;
+}
+.btn2{
+    padding: 10px;
+    border:1px solid  steelblue;
+    font-weight: 100;
+    background-color: transparent;
+    color: steelblue;
+}
+li:hover{
+    background-color: darkturquoise;
+}
+li a:hover{
+    color: dodgerblue;
+}
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div class="container">
+  <img src="download.jpg" alt="beach">
+           <div class="header">
+                     <nav class="nav">
+                          <img src="C:\Users\Hiral\Pictures\Screenshots\Screenshot (7).png" alt="logo" height="50px" width="100px">
+                         <div class="links">
+                          <ul>
+                      <li >  <a href="" class="blue">Home</a></li>
+                      <li><a href="">Work</a></li>
+                      <li><a href="">About</a></li>
+                      <li><a href="">Services</a></li>
+                      <li><a href="">Contact</a></li> 
+                      <li><a href="">Feedback</a></li>
+                    </ul></div>
+                </nav>
+            </div>
+            <div class="content">
+                <h3>Design * Development * Branding </h3>
+                <h1>Creative and Experienced</h1>
+                <h4>We are the world's best design agencies</h4>
+                <div class="button">
+                    <button class="btn1"> Like Share</button>
+                    <button class="btn2">Subscribe</button>
+                </div>
+            </div>
+            </div>
+
+        </div>
+   
+</body>
+</html>

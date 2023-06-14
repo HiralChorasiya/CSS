@@ -1,0 +1,437 @@
+*{
+    margin:0;
+padding:0;
+}
+body{
+    height:100vh;
+    width:100vw;
+}
+.page1{
+    background-image: linear-gradient(50deg,deeppink 30%,PURPLE 70%);
+    height:100%;
+    max-width:100%;
+    padding:40px 0px;
+    position: relative;
+}
+
+nav{
+    width:90%;
+padding:10px 20px;
+height:50px;
+display: flex;
+justify-content: space-between;
+}
+.links{
+    width:80%;
+    display: flex;
+    margin-left: 30%;
+}
+.menu {
+    display: none;
+   }
+a{
+    text-decoration: none;
+    color:white;
+}
+.end{
+    width:30%;
+    display: flex;
+   justify-content: space-between;
+   margin-left: 10%;
+}
+input{
+    border: white;
+    border-radius: 20px;
+    padding: 15px;
+    color: black;
+}
+.btn1{
+    color:mediumvioletred;
+    padding:10px 20px;
+    border-radius: 20px;
+    border: white;
+}
+.div2{
+    height:100%;
+    width: 85%;
+    display: flex;
+    margin:10% 0%;
+}
+.div2>img{
+    height: 100%;
+    min-width: 100%;
+}
+.div3>h1{
+    font-size: 50px;
+    font-weight: lighter;
+    display: none;
+    margin:20% 10%;
+}
+.div3{
+    color:white;
+    margin-left: 10%;
+}
+.div3>h2{
+    margin:15% 5%;
+    font-size: 40px;
+}
+.div3>p{
+    margin:5%;
+    font-size: 15px;
+}
+.image{
+    width: 100%;
+}
+.btn2{
+    color:mediumturquoise;
+    padding:15px 50px;
+    border-radius: 20px;
+    border: white;
+    margin:25px;
+}
+nav>img{
+    height:100px;
+    width:150px;
+    margin-top:-35px;
+}
+.page2{
+    margin:7% 0%;
+    text-align: center;
+    height:120%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;   
+}
+.row{
+    Height:30%;
+    display: flex;
+    width:100%;
+    gap: 20px;
+}
+.col1,.col2,.col3{
+    height:100%;
+    width:25%;
+    padding:5%
+}
+.box1{
+    display:flex;
+}
+.icon{
+    width:50px;
+    background-color:crimson;
+    border-radius: 50%;
+    height:40px;
+}
+.icon>img{
+    height:35px;
+}
+.page3{
+    text-align: center;
+    height:100%;
+}
+.btn3{
+    color: white;
+    padding:15px 50px;
+    border-radius: 20px;
+    background-color:mediumturquoise;
+    margin:20px;
+}
+.page3>img{
+    min-height:60%;
+    width:70%;
+    border:5px solid black;
+}
+.page4{
+    margin-top: 25%;
+    background: linear-gradient(50deg,deeppink 30%,PURPLE 70%);
+    text-align: center;
+    color:white ;
+    height:50%;
+    padding: 10%;
+}
+.news{
+    display: none;
+    font-size: 40px;
+}
+.btn4{
+    color:white;
+    padding:10px 65px;
+    border-radius: 20px;
+    background-color: rgb(236, 101, 186);
+    margin:5px;
+    border: rgb(236, 101, 186) ;
+}
+.page5{
+    margin:40px 5px;
+    height:100%;
+    text-align: center;
+}
+.flex-container{
+    height:80%;
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+}
+.col1,.col2,.col3{
+    height:100%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 25%;
+}
+.box2{
+    height:50%;
+}
+.box2>img{
+    height:70px;
+    width:50px;
+}
+.des{
+    display: flex;
+    justify-content: center;
+   align-items: center;
+}
+.account>img{
+    width:50px;
+    border-radius: 50%;
+    height:40px;
+}
+.page6{
+    margin:10% 2%;
+    height:60%;
+    text-align: center;
+}
+.page6>img{
+    margin:5%;
+    height:20%;
+}
+.page7{
+    margin:40px 5px;
+    height:100%;
+    text-align: center;
+}
+.span{
+    font-weight: 700;
+    font-size: 40px;
+}
+.flex{
+    padding: 5%;
+    height:50%;
+    width:20%;
+    background-color: blanchedalmond;
+    border-radius:10px;
+}
+#flex-box{
+    background: linear-gradient(50deg,deeppink 30%,PURPLE 70%);
+}
+.page8{
+    margin:10% 0%;
+    height:100%;
+    text-align: center;
+    background-color: black;
+    color: white;
+    position: relative;
+   
+}
+.flex-content{  
+    position: absolute;
+    height:100%;
+     left:240px;
+  bottom:-200px;
+   display: flex;
+   gap:20px;
+}
+form{
+    height:50%;
+    background-color: antiquewhite;
+    width:40%;
+    color: lightgrey;
+  border-radius:10px;
+}
+input,textarea{
+    margin-top: 10px;
+}
+.second-part{
+    
+    height:50%;
+    width:40%;
+    border-radius: 20px;
+    text-align: left;
+}
+.icons1,.icons2,.icons3{
+display: flex;
+padding:10px;
+column-gap:10px;
+    align-items: center;
+}
+.page9{
+    height:50%;
+    display: flex;
+    margin:10%;
+    gap:20px;
+   position: relative;
+}
+.page9>div{
+    width:30%;
+}
+ul li{
+    list-style-type: none;
+    line-height: 1cm;
+}
+.map{
+    height:40%;
+}
+.map>img{
+height:30%;
+width:40%;
+position: absolute;
+right:40%;
+
+}
+.page9>.second-part{
+    position: static;
+}
+@media only screen and (max-width: 600px) {
+   .links{
+     display: none;
+    }
+    .div3>h2 {
+        display: none;
+       }
+    .nav>.menu{
+        display: block;
+    }
+    .div3>h1{
+        display: block; 
+        text-align: center;
+    }  
+     .div2{
+        display: block;
+        height:50%;
+        width:90%;
+    }
+    .image{
+        position: absolute;
+        height:40%;
+        bottom: 3%;
+        width:98%;
+        margin:5px;
+    }
+   .image>img{
+    width:100%;
+    height: 100%;
+   }
+    .div3{
+        position: absolute;
+        top:50px;
+    }
+    .row{
+        flex-direction: column;
+        padding:10%;
+        width: 90%;
+    }
+    .col1,.col2,.col3{
+        width:90%;
+    } 
+    .page3{
+        margin:5% 5%;
+    }
+    .page3>img{
+        width:90%
+    }
+    .page4>h1 {
+        display: none;
+       }
+    .news{
+        display: block; 
+    }  
+    .page5{
+        height:100%;
+    }
+    .flex-container{
+        flex-direction: column;
+        padding:10% ;
+        overflow: hidden;
+    }
+    .col1,.col2,.col3{
+        width:90%;
+    
+    } 
+    .page6{
+        height:80%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .page7{
+        height:120%;
+    }
+    .flex{
+        width:100%;
+    }
+    .page8{
+        height:100%;
+        padding:5% ;
+    }
+   .flex-content{
+display: block;
+position: relative;
+inset: 0px;
+height:80%;
+width:80%;
+    }
+    form{
+        position: absolute;
+        width:100%;
+        height:50%;
+        bottom:5px;
+        left:20px;
+    }
+    .second-part{
+        position: absolute;
+        top:100px;
+        width:100%;
+        margin-top: 25px;
+        left:20px;
+    }
+    .icons1{
+     
+        width:100%;
+    }
+    .icons{
+        position: absolute;
+        top:-69px;
+        left:20px;
+    }
+    .page9{
+        flex-direction: column;
+        height:150%;
+  justify-content: center;
+  align-items: center;
+
+    }
+    .map{
+        position: relative;
+        height:100%;
+        width:100%;
+        top:-100px;
+        left:30%;
+          }
+          .map>img{
+            height:90%;
+            width:200%;
+            padding:10px;
+          }
+    .page9>.names{
+        width:100%;
+        height: 100%;  
+        text-align: center;
+    }
+    .page9>.second-part{
+        width:100%;
+        height: 100%;  
+      
+    }
+}

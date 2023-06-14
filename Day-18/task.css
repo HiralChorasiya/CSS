@@ -1,0 +1,108 @@
+body{
+       background-color: rgba(176, 196, 222, 0.193);
+}
+.container{
+ height: 100vh;
+    width: 100vw;
+    margin:0% 2%;
+    overflow-x: hidden;
+}
+.main{
+    width:85%;
+    height:20%;
+    padding: 2%;
+    border-radius: 10px;
+    background-color: white;
+}
+img{
+    height:25%;
+    border-radius: 50%;
+    width:25%;
+    border:2px solid steelblue;
+}
+i{
+    font-size: 15px;
+    color: steelblue;
+}
+.header{
+    display: flex;
+    gap:10px;
+}
+.main>i{
+    color:black;
+    float: right;
+}
+h3,p{
+    margin:3% 0%;
+}
+button{
+    margin:5% 0%; 
+    border-radius: 10px;
+}
+.btn1{
+    background-color: steelblue;
+    color:white;
+    padding: 10px 25px;
+    border: 1px solid blue;
+    margin-left: 2%;
+}
+.btn2{
+    padding: 10px 14px;
+    border: 1px solid transparent;
+    margin-left: 2%;
+}
+input{
+    padding: 5%;
+    width: 90%;
+    background-color: rgba(176, 196, 222, 0.193);
+   border: none;
+}
+#no2{
+   width:60%; 
+}
+input[type=radio]{
+    width:10%;
+}
+select{
+    background-color: rgba(176, 196, 222, 0.193);
+    width:95%;
+    padding: 3%;
+    border: none;
+}
+#no{
+    width:25%;
+}
+#submit{
+    background-color:rgb(34, 168, 178); 
+    color:white;
+  font-family: 'Times New Roman', Times, serif;
+  margin:5% 0%;
+  width:90%;
+}
+form{
+    background-color: white;
+    border-radius: 10px;
+    width:80%;
+    padding:20px;
+}
+input:checked{
+    accent-color: blue;
+}
+.doc,.aadhar{
+    position: relative;
+}
+.btn3{
+    position: absolute;
+    border-radius: 0px;
+    right:20px;
+    top:15px;
+}
+.btn4{
+    position: absolute;
+    border-radius: 0px;
+    right:10px;
+    top:15px;
+}
+#title{
+    width:20%;
+}

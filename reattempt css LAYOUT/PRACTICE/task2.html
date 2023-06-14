@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="task2.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Document</title>
+    <style>
+        *{
+    margin: 0;
+    padding: 0;
+}
+        .main{
+            height:100vh;
+            width:100vw;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        
+        }
+        .container{  
+            height:100%;
+            width:60%;
+         overflow: hidden; 
+            position: relative;
+        }
+       
+        .header{
+            width:100%;
+            background-color: rgba(240, 236, 236, 0.693);   
+              position: absolute;
+           top:10px;
+        } 
+   .menu,.menu2{
+    color: black;
+   }
+     a{
+        text-decoration: none;
+        color: black;
+     }
+        nav{
+            align-items: center;
+            display: flex;
+            justify-content: space-between;
+            width: 100%;
+        } 
+        nav>ul{
+          display: flex;
+        }
+        h1{
+            padding:15px;
+        }
+      li{
+    list-style-type: none;
+    display: block;
+    padding: 16px 20px;
+  }  
+ 
+svg{
+height: 15px;
+width:20px;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    cursor: pointer;
+  }
+  .dropdown:hover .dropdown-content {
+    display: block;
+    transition: 5s;
+  }
+  .box{
+    position: relative;
+  }
+.box2{
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  top:0px;
+  left:160px;
+}
+
+.box1{
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  left:160px;
+  top:50px;
+}
+.dropdown .dropdown-content  .menu:hover .box1 {
+  display: block;
+}
+.dropdown .dropdown-content .menu2:hover .box2 {
+  display: block;
+}
+.dropdown-con {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  cursor: pointer;
+}
+.box3{
+position: relative;
+background-color: #f9f9f9;
+min-width:200px;
+box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+z-index: 1;
+top:60px;
+}
+.box4{
+position: absolute;
+background-color: #f9f9f9;
+min-width: 200px;
+box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+z-index: 1;
+right:220px;
+top:60px;
+}
+.box5{
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width:200px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  top:60px;
+right:420px;
+  }
+  .box6{
+
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width:200px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+ right:640px;
+  top:60px;
+  }
+.mega-menu2:hover .dropdown-con{
+  display: block;
+  transition: 5s;
+  color:black;
+}
+li:hover{
+  color:red
+}
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div class="container">
+ 
+           <div class="header">
+                     <nav class="nav">
+                        <H1>LOGO</H1>
+                          <ul>
+                      <li >Home</li>
+                      <li class="dropdown">Dropdown menu<svg fill="#000000" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 330 330" xml:space="preserve"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path id="XMLID_225_" d="M325.607,79.393c-5.857-5.857-15.355-5.858-21.213,0.001l-139.39,139.393L25.607,79.393 c-5.857-5.857-15.355-5.858-21.213,0.001c-5.858,5.858-5.858,15.355,0,21.213l150.004,150c2.813,2.813,6.628,4.393,10.606,4.393 s7.794-1.581,10.606-4.394l149.996-150C331.465,94.749,331.465,85.251,325.607,79.393z"></path> </g></svg>
+                       <div class="dropdown-content">
+                         <ul class="box">
+                        <li ><a href="">Menu level 2</a><svg fill="#000000" height="15px" width="20px" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 330.002 330.002" xml:space="preserve"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path id="XMLID_226_" d="M233.252,155.997L120.752,6.001c-4.972-6.628-14.372-7.97-21-3c-6.628,4.971-7.971,14.373-3,21 l105.75,140.997L96.752,306.001c-4.971,6.627-3.627,16.03,3,21c2.698,2.024,5.856,3.001,8.988,3.001 c4.561,0,9.065-2.072,12.012-6.001l112.5-150.004C237.252,168.664,237.252,161.33,233.252,155.997z"></path> </g></svg></li>
+                        <li class="menu">Menu level 2<svg fill="#000000" height="15px" width="20px" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 330.002 330.002" xml:space="preserve"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path id="XMLID_226_" d="M233.252,155.997L120.752,6.001c-4.972-6.628-14.372-7.97-21-3c-6.628,4.971-7.971,14.373-3,21 l105.75,140.997L96.752,306.001c-4.971,6.627-3.627,16.03,3,21c2.698,2.024,5.856,3.001,8.988,3.001 c4.561,0,9.065-2.072,12.012-6.001l112.5-150.004C237.252,168.664,237.252,161.33,233.252,155.997z"></path> </g></svg>
+                           <ul class="box1">
+                           <li class="menu2" >Menu level 3<svg fill="#000000" height="15px" width="20px" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 330.002 330.002" xml:space="preserve"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path id="XMLID_226_" d="M233.252,155.997L120.752,6.001c-4.972-6.628-14.372-7.97-21-3c-6.628,4.971-7.971,14.373-3,21 l105.75,140.997L96.752,306.001c-4.971,6.627-3.627,16.03,3,21c2.698,2.024,5.856,3.001,8.988,3.001 c4.561,0,9.065-2.072,12.012-6.001l112.5-150.004C237.252,168.664,237.252,161.33,233.252,155.997z"></path> </g></svg>
+                             <ul class="box2">
+                                   <li><a href="">link 1</a></li>
+                        <li><a href="">link 2</a></li>
+                        <li><a href="">link 3</a></li>
+                        <li><a href="">link 4</a></li>
+                        <li><a href="">link 5</a></li>
+                             </ul></li>
+                            <li><a href="">link 1</a></li>
+                                <li><a href="">link 2</a></li>
+                                <li><a href="">link 3</a></li>
+                                <li><a href="">link 4</a></li>
+                                <li><a href="">link 5</a></li>
+                            </ul></li> 
+                            <li><a href="">Menu level 2</a><svg fill="#000000" height="15px" width="20px" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 330.002 330.002" xml:space="preserve"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path id="XMLID_226_" d="M233.252,155.997L120.752,6.001c-4.972-6.628-14.372-7.97-21-3c-6.628,4.971-7.971,14.373-3,21 l105.75,140.997L96.752,306.001c-4.971,6.627-3.627,16.03,3,21c2.698,2.024,5.856,3.001,8.988,3.001 c4.561,0,9.065-2.072,12.012-6.001l112.5-150.004C237.252,168.664,237.252,161.33,233.252,155.997z"></path> </g></svg>
+                     </li>
+                        <li><a href="">link 1</a></li>
+                        <li><a href="">link 2</a></li>
+                        <li><a href="">link 3</a></li>
+                        <li> <a href="">Link 4</a></li>
+                        <li><a href="">link 5</a></li> 
+                     </ul></div>
+                      </li>
+                      <li class="mega-menu">Mega menu<svg fill="#000000" height="200px" width="200px" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 330 330" xml:space="preserve"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path id="XMLID_225_" d="M325.607,79.393c-5.857-5.857-15.355-5.858-21.213,0.001l-139.39,139.393L25.607,79.393 c-5.857-5.857-15.355-5.858-21.213,0.001c-5.858,5.858-5.858,15.355,0,21.213l150.004,150c2.813,2.813,6.628,4.393,10.606,4.393 s7.794-1.581,10.606-4.394l149.996-150C331.465,94.749,331.465,85.251,325.607,79.393z"></path> </g></svg></li>
+                      <li  class="mega-menu2">Mega menu 2<svg fill="#000000" height="200px" width="200px" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 330 330" xml:space="preserve"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path id="XMLID_225_" d="M325.607,79.393c-5.857-5.857-15.355-5.858-21.213,0.001l-139.39,139.393L25.607,79.393 c-5.857-5.857-15.355-5.858-21.213,0.001c-5.858,5.858-5.858,15.355,0,21.213l150.004,150c2.813,2.813,6.628,4.393,10.606,4.393 s7.794-1.581,10.606-4.394l149.996-150C331.465,94.749,331.465,85.251,325.607,79.393z"></path> </g></svg>
+                        <div class="dropdown-con">
+                    <ul class="box3">
+                        <li><b>Title</b></li>
+                        <li><a href="">link 1</a></li>
+                        <li><a href="">link 2</a></li>
+                        <li><a href="">link 3</a></li>
+                        <li><a href="">link 4</a></li>
+                        <li><a href="">link 5</a></li>
+                    </ul>
+                    <ul class="box4">
+                        <li><b>Title</b></li>
+                        <li><a href="">link 1</a></li>
+                        <li><a href="">link 2</a></li>
+                        <li><a href="">link 3</a></li>
+                        <li><a href="">link 4</a></li>
+                        <li><a href="">link 5</a></li>
+                    </ul>
+                    <ul class="box5">
+                        <li><b>Title</b></li>
+                        <li><a href="">link 1</a></li>
+                        <li><a href="">link 2</a></li>
+                        <li><a href="">link 3</a></li>
+                        <li><a href="">link 4</a></li>
+                        <li><a href="">link 5</a></li>
+                    </ul>
+                    <ul class="box6">
+                        <li><b>Title</b></li>
+                        <li><a href="">link 1</a></li>
+                        <li><a href="">link 2</a></li>
+                        <li><a href="">link 3</a></li>
+                        <li><a href="">link 4</a></li>
+                        <li><a href="">link 5</a></li>
+                    </ul></div>
+                    </li>
+                      <li><i class="fa fa-search" aria-hidden="true"></i></li>
+                    </ul></div> 
+                </nav></div>
+            </div>
+</body>
+</html

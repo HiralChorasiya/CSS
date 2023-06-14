@@ -1,0 +1,119 @@
+*{
+    margin:0;
+    padding: 0;
+}
+.main-container{
+    height:100vh;
+    width:100wh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+   width:95%;
+   height:95%;
+    display: flex;
+overflow: hidden;
+border: 1px solid lightgray;
+border-radius: 10px;
+}
+.col{
+    display: flex;
+    height:100%;
+    width:20%;
+    flex-direction: column;
+    border: 1px solid gray;
+    text-align: center;
+}
+.row{
+    display: flex;
+    width:100%;
+    height:8%;
+    border: 1px solid gray;
+    
+}
+#box{
+    height:7%;
+    display: block;
+}
+.box1>img{
+   border-radius:50% ;
+   width:40%;
+   height:60%;
+   margin:5%;
+}
+svg{
+    width:50%;
+    height:50%;  
+}
+#box{
+    display: inline-flex;
+}
+.search{
+    width:80%;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.dropdown{
+    width:20%;
+    display: flex; 
+     justify-content: center;
+    align-items: center;
+}
+
+.dropdown>img{
+    border-radius:50% ;
+    width:20%;
+    height:60%;
+ }
+ p{
+    color: grey;
+    text-align: left;
+ }
+ .main{
+    width:100%;
+    height:100%;
+    display: flex;
+    flex-direction: column;
+ }
+ .row2{
+    height:90%;
+    width:100%;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ }
+ .box11{
+    margin-top:30%;
+ }
+ .content{
+    background-color: lavender;
+    width:90%;
+    height:90%;
+    border:2px dashed grey;
+    border-radius: 10px;
+ }
+.dropdown>svg{
+    height:30%;
+    width:20%;
+}
+.search>svg{
+    height:60%;
+    width:15%;
+}
+#box:hover{
+    color: rgb(56, 33, 233);
+    background-color: lightsteelblue;
+}
+.bell>svg{
+    height:100%;
+    width:50%;
+}
+ .bell{
+    height:100%;
+    width:5%;
+    position: absolute;
+    right:0;
+ }
