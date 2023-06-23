@@ -29,8 +29,18 @@ hr{
     border-radius:20px;
     width:100%;
     height:100%;
-    background-image: linear-gradient(rgb(0, 182, 0),green,black );
+    /* background-image: linear-gradient(rgb(0, 182, 0),green,black ); */
 }
+.image::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius:20px;
+    background-image: linear-gradient(to bottom,rgba(0, 128, 0, 0.428), rgba(18, 18, 18, 0.4),black);
+  }
 .content{
     width:25%;
     height: 10%;
