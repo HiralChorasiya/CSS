@@ -1,0 +1,110 @@
+*{
+    margin:0;
+    padding: 0;
+}
+body{
+    background-color:white;
+     height:100vh;
+    width:100vw;
+}
+.container{
+   height:100%;
+   width:100%;
+    text-align: center;
+    padding: 3% 0%;  
+}
+.para1{
+    color:blue;
+}
+p{
+    margin-top: 2%;
+    font-size: 1rem;
+}
+.para{
+    margin-bottom: 2%;
+}
+
+.slider{
+    width:12%;
+    height:4%;
+    border-radius: 20px;
+    margin-top: 3%;
+    margin:auto;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+      border:1px solid rgba(128, 128, 128, 0.486);
+      gap:5px;
+}
+.slider2{
+    background-color: blue;
+    width:50%; 
+    height:70%;
+    border-radius: 10px;
+}
+.slider3{
+    background-color: transparent;
+ 
+    width:0%; 
+    height:70%;
+    border-radius: 10px;
+}
+.flex-container{
+    display: flex;
+    height:70%;
+    gap:10px;
+    width:95%;
+    margin: 2%;
+    padding-bottom: 2%;
+}
+.card1,.card2,.card3{
+width:30%;
+height:80%;
+padding:2%;
+border: 1px solid grey;
+border-radius: 10px;
+text-align: left;
+}
+.card3{
+    border: 1px solid blue;
+    background-color: black;
+    color: white;
+}
+.btn2{
+    background-color: blue;
+    color:white;
+     width:100%;
+     padding:5px;
+     border-radius: 5px;
+     border: 1px solid blue;
+      margin: 10px 0px;
+}
+.btn1{
+    background-color: blue;
+    color:white;
+    padding:5px;
+    border: 1px solid blue;
+    border-radius: 10px;
+  
+}
+.btn3{
+    margin: 10px 0px;
+    background-color:rgba(61, 61, 61, 0.16);
+    color:white;
+    padding:5px;
+    border: 1px solid rgba(61, 61, 61, 0.16);
+    border-radius: 10px;
+   width: 100%;
+}
+.content{
+    display: flex;
+    justify-content: space-between;
+}
+span{
+    font-weight: 700;
+    font-size: 40px;
+}
+
+
+
