@@ -25,7 +25,7 @@ p{
 }
 
 .slider{
-    width:12%;
+    width:10%;
     height:4%;
     border-radius: 20px;
     margin-top: 3%;
@@ -40,19 +40,19 @@ p{
 .slider2{
     background-color: blue;
     width:50%; 
-    height:70%;
+    height:80%;
     border-radius: 10px;
 }
 .slider3{
     background-color: transparent;
  
-    width:0%; 
+    width:50%; 
     height:70%;
     border-radius: 10px;
 }
 .flex-container{
     display: flex;
-    height:70%;
+    height:80%;
     gap:10px;
     width:95%;
     margin: 2%;
